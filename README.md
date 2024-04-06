@@ -1,7 +1,10 @@
 # Matlab-Codes
-Hello,</p>
-The MATLAB codes of the proposed algorithms are available in this repository. Additional codes can be made available upon request via email at hoda_zamani@yahoo.com. For further details, please refer to my Google Scholar profile.
+Greetings,
 
-Best regards,</p>
-Hoda Zamani, PhD in Artificial Intelligence and Robotic</p>
-https://scholar.google.com/citations?user=https://scholar.google.com/citations?user=bpZOZWsAAAAJ&hl=en&user=bpZOZWsAAAAJ
+The MATLAB codes for the proposed algorithms are accessible within this repository. Should you require additional codes, please feel free to reach out via email at hoda_zamani@yahoo.com or contact my supervisor, Professor Nadimi, at nadimi@ieee.org. For more comprehensive information, kindly consult my Google Scholar profile.
+
+Warm regards,
+
+Hoda Zamani, PhD
+Expert in Artificial Intelligence and Robotics
+[Google Scholar Profile](https://scholar.google.com/citations?user=https://scholar.google.com/citations?user=bpZOZWsAAAAJ&hl=en&user=bpZOZWsAAAAJ)

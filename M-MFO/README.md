@@ -1,22 +1,23 @@
-# GGWO Matlab code
+# M-MFO Matlab code
 
-This repository hosts the source code for our paper titled ["GGWO: Gaze cues learning-based grey wolf optimizer and its applications for solving engineering problems"](https://www.sciencedirect.com/science/article/abs/pii/S1877750322000588)<p>
+This repository hosts the source code for our paper titled ["Migration-Based Moth-Flame Optimization Algorithm"](https://www.mdpi.com/2227-9717/9/12/2276)<p>
  
 If you need further assistance with your paper or have any other requests, feel free to let me know!
 
 ## Abstract
-In this article, an improved variant of the grey wolf optimizer (GWO) named gaze cues learning-based grey wolf optimizer (GGWO) is proposed. The main intentions are to reduce the existing high selective pressure and low diversification of the GWO algorithm, which results in premature convergence, local optima trapping, and stagnation problems. The GGWO algorithm benefits from two new search strategies: neighbor gaze cues learning (NGCL) and random gaze cues learning (RGCL) inspired by the gaze cueing behavior in wolves. The NGCL strategy enhances the exploitation ability and local optima avoidance. The RGCL, however, boosts the population diversity and balance between exploration and exploitation. The cooperation among three search strategies GWO, NGCL, and RGCL, improves diversification, exploration, and exploitation. The GGWO algorithm performance was evaluated by conducting CEC'18 test functions. Furthermore, the results of GGWO were compared with nine metaheuristic algorithms KH, iwPSO, WOA, GWO, GWO-EPD, HGWOSCA, EEGWO, BOA, and VAGWO. Moreover, the experimental results were statistically analyzed by the Wilcoxon signed-rank and Friedman tests. Additionally, four real engineering design problems and two problems of optimal power flow (OPF) for the IEEE 30-bus and IEEE 118-bus are optimized to verify the applicability of the GGWO in practice. The results show that the GGWO algorithm has been able to provide competitive and superior results to the compared algorithms, and it is capable of solving engineering problems.
+Moth–flame optimization (MFO) is a prominent swarm intelligence algorithm that demonstrates sufficient efficiency in tackling various optimization tasks. However, MFO cannot provide competitive results for complex optimization problems. The algorithm sinks into the local optimum due to the rapid dropping of population diversity and poor exploration. Hence, in this article, a migration-based moth–flame optimization (M-MFO) algorithm is proposed to address the mentioned issues. In M-MFO, the main focus is on improving the position of unlucky moths by migrating them stochastically in the early iterations using a random migration (RM) operator, maintaining the solution diversification by storing new qualified solutions separately in a guiding archive, and, finally, exploiting around the positions saved in the guiding archive using a guided migration (GM) operator. The dimensionally aware switch between these two operators guarantees the convergence of the population toward the promising zones. The proposed M-MFO was evaluated on the CEC 2018 benchmark suite on dimension 30 and compared against seven well-known variants of MFO, including LMFO, WCMFO, CMFO, CLSGMFO, LGCMFO, SMFO, and ODSFMFO. Then, the top four latest high-performing variants were considered for the main experiments with different dimensions, 30, 50, and 100. The experimental evaluations proved that the M-MFO provides sufficient exploration ability and population diversity maintenance by employing migration strategy and guiding archive. In addition, the statistical results analyzed by the Friedman test proved that the M-MFO demonstrates competitive performance compared to the contender algorithms used in the experiments.
 
 
 ## Citation
 
 ```
 @article{
-  Title={GGWO: Gaze cues learning-based grey wolf optimizer and its applications for solving engineering problems},
-  Author={Mohammad H Nadimi-Shahraki, Shokooh Taghian, Seyedali Mirjalili, Hoda Zamani, Ardeshir Bahreininejad},
-  Journal={Journal of Computational Science},
-  Year={2022}
-  Volume={61}
-  Doi =https://doi.org/10.1016/j.jocs.2022.101636
+  Title={Migration-Based Moth-Flame Optimization Algorithm},
+  Author={Mohammad H Nadimi-Shahraki, Ali Fatahi, Hoda Zamani, Seyedali Mirjalili, Laith Abualigah, Mohamed Abd Elaziz},
+  Journal={Processes},
+  Year={2021}
+  Volume={9}
+  Issue={12}
+  Doi = https://doi.org/10.3390/pr9122276
 }
 ```

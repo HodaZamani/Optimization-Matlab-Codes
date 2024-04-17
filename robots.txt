@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hodazamani.github.io/sitemap.xml
+Sitemap: https://github.com/HodaZamani/Matlab-Codes/sitemap.xml
